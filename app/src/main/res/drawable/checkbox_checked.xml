@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background circle màu xanh lá -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#4CAF50" />
+            <size android:width="28dp" android:height="28dp" />
+        </shape>
+    </item>
+    <!-- Icon check màu trắng -->
+    <item
+        android:drawable="@drawable/ic_check_white"
+        android:width="18dp"
+        android:height="18dp"
+        android:gravity="center" />
+</layer-list>

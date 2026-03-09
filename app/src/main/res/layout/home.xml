@@ -12,16 +12,6 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp">
 
-        <TextView
-            android:id="@+id/txtWelcome"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_centerVertical="true"
-            android:text="Chào Mừng, "
-            android:textColor="@color/blue_dark"
-            android:textSize="20sp"
-            android:textStyle="italic" />
         <ImageButton
             android:id="@+id/btnMyCart"
             android:layout_width="40dp"
@@ -63,7 +53,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:padding="5dp"
+        android:padding="1dp"
         android:clipToPadding="false"
         android:scrollbars="vertical" />
 

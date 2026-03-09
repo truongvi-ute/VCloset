@@ -16,7 +16,7 @@ import androidx.annotation.Nullable;
 public class DbHelper extends SQLiteOpenHelper {
 
     private static final String DATABASE_NAME = "v_closet.db";
-    private static final int DATABASE_VERSION = 2; // Tăng version do có thay đổi schema
+    private static final int DATABASE_VERSION = 3; // Tăng version để reset data với size mới
 
     public DbHelper(@Nullable Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);

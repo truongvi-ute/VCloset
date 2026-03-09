@@ -2,7 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- Permission để đọc ảnh từ storage -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
     <application
+        android:name=".VClosetApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -22,9 +28,18 @@
         </activity>
         <activity android:name=".controller.RegisterActivity"></activity>
         <activity android:name=".controller.ForgotPasswordActivity"></activity>
-        <activity android:name=".controller.VerifyOTPActivity"></activity>
         <activity android:name=".controller.EditPasswordActivity"></activity>
         <activity android:name=".controller.HomeActivity"></activity>
+        <activity android:name=".controller.ProfileActivity"></activity>
+        <activity android:name=".controller.EditProfileActivity"></activity>
+        <activity android:name=".controller.ProductDetailActivity"></activity>
+        <activity android:name=".controller.CartActivity"></activity>
+        <activity android:name=".controller.WishlistActivity"></activity>
+        <activity android:name=".controller.AddressListActivity"></activity>
+        <activity android:name=".controller.AddAddressActivity"></activity>
+        <activity android:name=".controller.CheckoutActivity"></activity>
+        <activity android:name=".controller.OrderSuccessActivity"></activity>
+        <activity android:name=".controller.OrderHistoryActivity"></activity>
     </application>
 
 </manifest>
